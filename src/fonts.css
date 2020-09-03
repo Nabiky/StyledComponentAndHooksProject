@@ -1,0 +1,36 @@
+@font-face {
+    font-family:"AvenirNextLTPro";
+    font-weight: 400;
+	src:url("/content/dam/kb/public/font/avenir/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix");
+    src:url("/content/dam/kb/public/font/avenir/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix") format("eot"),
+    url("/content/dam/kb/public/font/avenir/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f") format("svg"),
+    url("/content/dam/kb/public/font/avenir/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff"),
+    url("/content/dam/kb/public/font/avenir/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf") format("truetype")
+}
+@font-face {
+    font-family:"AvenirNextLTPro";
+    font-weight: 500;
+	src:url("/content/dam/kb/public/font/avenir/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix");
+    src:url("/content/dam/kb/public/font/avenir/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix") format("eot"),
+    url("/content/dam/kb/public/font/avenir/a89d6ad1-a04f-4a8f-b140-e55478dbea80.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80") format("svg"),
+    url("/content/dam/kb/public/font/avenir/f26faddb-86cc-4477-a253-1e1287684336.woff") format("woff"),
+    url("/content/dam/kb/public/font/avenir/63a74598-733c-4d0c-bd91-b01bffcd6e69.ttf") format("truetype")
+}
+@font-face {
+    font-family:"AvenirNextLTPro";
+    font-weight: 600;
+	src:url("/content/dam/kb/public/font/avenir/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix");
+    src:url("/content/dam/kb/public/font/avenir/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix") format("eot"),
+    url("/content/dam/kb/public/font/avenir/99affa9a-a5e9-4559-bd07-20cf0071852d.svg#99affa9a-a5e9-4559-bd07-20cf0071852d") format("svg"),
+    url("/content/dam/kb/public/font/avenir/91b50bbb-9aa1-4d54-9159-ec6f19d14a7c.woff") format("woff"),
+    url("/content/dam/kb/public/font/avenir/a0f4c2f9-8a42-4786-ad00-fce42b57b148.ttf") format("truetype")
+}
+@font-face {
+    font-family:"AvenirNextLTPro";
+    font-weight: 700;
+	src:url("/content/dam/kb/public/font/avenir/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix");
+    src:url("/content/dam/kb/public/font/avenir/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix") format("eot"),
+    url("/content/dam/kb/public/font/avenir/ed104d8c-7f39-4e8b-90a9-4076be06b857.svg#ed104d8c-7f39-4e8b-90a9-4076be06b857") format("svg"),
+    url("/content/dam/kb/public/font/avenir/b8e906a1-f5e8-4bf1-8e80-82c646ca4d5f.woff") format("woff"),
+    url("/content/dam/kb/public/font/avenir/890bd988-5306-43ff-bd4b-922bc5ebdeb4.ttf") format("truetype")
+}

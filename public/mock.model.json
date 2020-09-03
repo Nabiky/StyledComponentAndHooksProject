@@ -1,0 +1,379 @@
+{
+    "clientlibs": [
+        "network-design.react",
+        "manageData.all"
+    ],
+    "title": "Networkdesign",
+    ":type": "spark-common/components/structure/app",
+    ":items": {
+        "root": {
+            "columnCount": 12,
+            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+            "columnClassNames": {
+                "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+            },
+            ":items": {
+                "responsivegrid": {
+                    "columnCount": 12,
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnClassNames": {},
+                    ":items": {},
+                    ":itemsOrder": [],
+                    ":type": "wcm/foundation/components/responsivegrid"
+                }
+            },
+            ":itemsOrder": [
+                "responsivegrid"
+            ],
+            ":type": "wcm/foundation/components/responsivegrid"
+        },
+        "pageLevelClientlibList": {
+            ":type": "nt:unstructured"
+        }
+    },
+    ":itemsOrder": [
+        "root",
+        "pageLevelClientlibList"
+    ],
+    ":hierarchyType": "page",
+    ":children": {
+        "/dashboard": {
+            "clientlibs": [
+                "network-design.react",
+                "manageData.all"
+            ],
+            "title": "Sites",
+            ":type": "spark-common/components/structure/page",
+            ":items": {
+                "root": {
+                    "columnCount": 12,
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnClassNames": {
+                        "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    ":items": {
+                        "responsivegrid": {
+                            "columnCount": 12,
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                            "columnClassNames": {
+                                "header": "aem-GridColumn aem-GridColumn--default--12",
+                                "sites": "aem-GridColumn aem-GridColumn--default--12",
+                                "common_dam_css_js": "aem-GridColumn aem-GridColumn--default--12"
+                            },
+                            ":items": {
+                                "header": {
+                                    "title": "Network Design Tool",
+                                    "logoUrl": "www.mysparkdigital.co.nz",
+                                    "logOutUrl": "https://mysparkdigital.co.nz/vdesk/hangup.php3",
+                                    ":type": "mysparkdigital/common/components/structure/header"
+                                },
+                                "banner": {
+                                    ":type": "mysparkdigital/common/components/content/welcome"
+                                },
+                                "dashboard": {
+                                    ":type": "mysparkdigital/manageddata/components/content/dashboard"
+                                },
+                                "common_dam_css_js": {
+                                    ":type": "spark-common/components/content/common-dam-css-js",
+                                    "damCss": "/content/dam/onespark/spark-icon-family/styles.css"
+                                }
+                            },
+                            ":itemsOrder": [
+                                "header",
+                                "banner",
+                                "dashboard",
+                                "common_dam_css_js"
+                            ],
+                            ":type": "wcm/foundation/components/responsivegrid"
+                        }
+                    },
+                    ":itemsOrder": [
+                        "responsivegrid"
+                    ],
+                    ":type": "wcm/foundation/components/responsivegrid"
+                }
+            },
+            ":itemsOrder": [
+                "root"
+            ],
+            ":hierarchyType": "page",
+            ":path": "/dashboard"
+        },
+        "/sites": {
+            "clientlibs": [
+                "network-design.react",
+                "manageData.all"
+            ],
+            "title": "Sites",
+            ":type": "spark-common/components/structure/page",
+            ":items": {
+                "root": {
+                    "columnCount": 12,
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnClassNames": {
+                        "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    ":items": {
+                        "responsivegrid": {
+                            "columnCount": 12,
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                            "columnClassNames": {
+                                "header": "aem-GridColumn aem-GridColumn--default--12",
+                                "sites": "aem-GridColumn aem-GridColumn--default--12",
+                                "common_dam_css_js": "aem-GridColumn aem-GridColumn--default--12"
+                            },
+                            ":items": {
+                                "header": {
+                                    "title": "Network Design Tool",
+                                    "firstName": "Bob",
+                                    "lastName": "Bobby",
+                                    "logoUrl": "www.mysparkdigital.co.nz",
+                                    "logOutUrl": "https://mysparkdigital.co.nz/vdesk/hangup.php3",
+                                    ":type": "mysparkdigital/common/components/structure/header"
+                                },
+                                "sites": {
+                                    "diversity": [
+                                        {
+                                            "diversityKey": "PHYSICAL",
+                                            "diversityValue": "Physical"
+                                        },
+                                        {
+                                            "diversityKey": "MOBILE",
+                                            "diversityValue": "Mobile"
+                                        },
+                                        {
+                                            "diversityKey": "NO",
+                                            "diversityValue": "No"
+                                        }
+                                    ],
+                                    "bandwidthMultiplier": 2.5,
+                                    "siteTypes": [
+                                        {
+                                            "siteKey": "HEAD_OFFICE",
+                                            "siteValue": "Head office"
+                                        },
+                                        {
+                                            "siteKey": "SITE",
+                                            "siteValue": "Site"
+                                        },
+                                        {
+                                            "siteKey": "DATA_CENTRE",
+                                            "siteValue": "Data centre"
+                                        }
+                                    ],
+                                    "workingHours": [
+                                        {
+                                            "workingHrsKey": "24/7",
+                                            "workingHrsValue": "24 hrs / 7d"
+                                        },
+                                        {
+                                            "workingHrsKey": "14/7",
+                                            "workingHrsValue": "14 hrs / 7d"
+                                        }
+                                    ],
+                                    ":type": "mysparkdigital/manageddata/components/content/sites"
+                                },
+                                "common_dam_css_js": {
+                                    ":type": "spark-common/components/content/common-dam-css-js",
+                                    "damCss": "/content/dam/onespark/spark-icon-family/styles.css"
+                                }
+                            },
+                            ":itemsOrder": [
+                                "header",
+                                "sites",
+                                "common_dam_css_js"
+                            ],
+                            ":type": "wcm/foundation/components/responsivegrid"
+                        }
+                    },
+                    ":itemsOrder": [
+                        "responsivegrid"
+                    ],
+                    ":type": "wcm/foundation/components/responsivegrid"
+                }
+            },
+            ":itemsOrder": [
+                "root"
+            ],
+            ":hierarchyType": "page",
+            ":path": "/sites"
+        },
+        "/recommendation": {
+            "clientlibs": [
+                "network-design.react",
+                "manageData.all"
+            ],
+            "title": "Recommendation",
+            ":type": "spark-common/components/structure/page",
+            ":items": {
+                "root": {
+                    "columnCount": 12,
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnClassNames": {
+                        "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    ":items": {
+                        "responsivegrid": {
+                            "columnCount": 12,
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                            "columnClassNames": {
+                                "header": "aem-GridColumn aem-GridColumn--default--12",
+                                "recommendation": "aem-GridColumn aem-GridColumn--default--12"
+                            },
+                            ":items": {
+                                "header": {
+                                    "title": "Network Design Tool",
+                                    "logoUrl": "www.mysparkdigital.co.nz",
+                                    "logOutUrl": "https://mysparkdigital.co.nz/vdesk/hangup.php3",
+                                    ":type": "mysparkdigital/common/components/structure/header"
+                                },
+                                "recommendation": {
+                                    "siteTypes": [
+                                        {
+                                            "siteKey": "HEAD_OFFICE",
+                                            "siteValue": "Head office"
+                                        },
+                                        {
+                                            "siteKey": "SITE",
+                                            "siteValue": "Site"
+                                        },
+                                        {
+                                            "siteKey": "DATA_CENTRE",
+                                            "siteValue": "Data centre"
+                                        }
+                                    ],
+                                    "retryDelayDuration": 5000,
+                                    "maxRetriesAllowed": 10,
+                                    "noOfSitesToLoad": 5,
+                                    "termTitle": "Term",
+                                    "termDescription": "Term Description",
+                                    "recommendationTitle": "Recommendation",
+                                    ":type": "mysparkdigital/manageddata/components/content/recommendation"
+                                }
+                            },
+                            ":itemsOrder": [
+                                "header",
+                                "recommendation"
+                            ],
+                            ":type": "wcm/foundation/components/responsivegrid"
+                        }
+                    },
+                    ":itemsOrder": [
+                        "responsivegrid"
+                    ],
+                    ":type": "wcm/foundation/components/responsivegrid"
+                }
+            },
+            ":itemsOrder": [
+                "root"
+            ],
+            ":hierarchyType": "page",
+            ":path": "/recommendation"
+        },
+        "/proposal": {
+            "clientlibs": [
+                "network-design.react",
+                "manageData.all"
+            ],
+            "title": "Proposal",
+            ":type": "spark-common/components/structure/page",
+            ":items": {
+                "root": {
+                    "columnCount": 12,
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnClassNames": {
+                        "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    ":items": {
+                        "responsivegrid": {
+                            "columnCount": 12,
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                            "columnClassNames": {
+                                "header": "aem-GridColumn aem-GridColumn--default--12",
+                                "proposal": "aem-GridColumn aem-GridColumn--default--12"
+                            },
+                            ":items": {
+                                "header": {
+                                    "title": "Network Design Tool",
+                                    "logoUrl": "www.mysparkdigital.co.nz",
+                                    "logOutUrl": "https://mysparkdigital.co.nz/vdesk/hangup.php3",
+                                    ":type": "mysparkdigital/common/components/structure/header"
+                                },
+                                "proposal": {
+                                    ":type": "mysparkdigital/manageddata/components/content/wanproposal"
+                                }
+                            },
+                            ":itemsOrder": [
+                                "header",
+                                "proposal"
+                            ],
+                            ":type": "wcm/foundation/components/responsivegrid"
+                        }
+                    },
+                    ":itemsOrder": [
+                        "responsivegrid"
+                    ],
+                    ":type": "wcm/foundation/components/responsivegrid"
+                }
+            },
+            ":itemsOrder": [
+                "root"
+            ],
+            ":hierarchyType": "page",
+            ":path": "/proposal"
+        },
+        "/test": {
+            "clientlibs": [
+                "network-design.react",
+                "manageData.all"
+            ],
+            "title": "Proposal",
+            ":type": "spark-common/components/structure/page",
+            ":items": {
+                "root": {
+                    "columnCount": 12,
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnClassNames": {
+                        "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    ":items": {
+                        "responsivegrid": {
+                            "columnCount": 12,
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                            "columnClassNames": {
+                                "header": "aem-GridColumn aem-GridColumn--default--12",
+                                "proposal": "aem-GridColumn aem-GridColumn--default--12"
+                            },
+                            ":items": {
+                                "header": {
+                                    "title": "Network Design Tool",
+                                    "logoUrl": "www.mysparkdigital.co.nz",
+                                    "logOutUrl": "https://mysparkdigital.co.nz/vdesk/hangup.php3",
+                                    ":type": "mysparkdigital/common/components/structure/header"
+                                },
+                                "test": {
+                                    ":type": "mysparkdigital/manageddata/components/content/test"
+                                }
+                            },
+                            ":itemsOrder": [
+                                "header",
+                                "test"
+                            ],
+                            ":type": "wcm/foundation/components/responsivegrid"
+                        }
+                    },
+                    ":itemsOrder": [
+                        "responsivegrid"
+                    ],
+                    ":type": "wcm/foundation/components/responsivegrid"
+                }
+            },
+            ":itemsOrder": [
+                "root"
+            ],
+            ":hierarchyType": "page",
+            ":path": "/test"
+        }
+    },
+    ":path": "/"
+}

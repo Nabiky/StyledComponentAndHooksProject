@@ -1,0 +1,1 @@
+Container component which is used to pass in the refined data to react table component

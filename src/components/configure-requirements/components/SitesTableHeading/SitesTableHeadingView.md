@@ -1,0 +1,5 @@
+SitesTableHeadingView example:
+
+```js
+<SitesTableHeadingView />
+```

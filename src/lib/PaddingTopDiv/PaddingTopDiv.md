@@ -1,0 +1,1 @@
+This is a div that wraps around all the top level page components which needs a padding, so the top level components are all an equal amount of space from the top banner
